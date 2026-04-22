@@ -1,6 +1,7 @@
 ## problems i face while building 
 ### Date: 22-4-2026
 1. Tables: i forgot how to structure tables well. i know the tags needed for structuring but i don't know where to play them correctly.
+
 here is the code i used for structuring tables:
 ```html<table>
   <tr>
@@ -19,39 +20,4 @@ here is the code i used for structuring tables:
     <td>Data 6</td>
   </tr>
 </table>
-``` how can i add like space in my table to make it look better? without cssYou can add space to your table by using the `cellpadding` attribute in the `<table>` tag. This attribute specifies the amount of space between the cell content and the cell border. Here's how you can modify your table code to include `cellpadding`:
-
-```html <table cellpadding="10">
-  <tr>
-    <th>Header 1</th>
-    <th>Header 2</th>
-    <th>Header 3</th>
-  </tr>
-  <tr>
-    <td>Data 1</td>
-    <td>Data 2</td>
-    <td>Data 3</td>
-  </tr>
-  <tr>
-    <td>Data 4</td>
-    <td>Data 5</td>
-    <td>Data 6</td>
-  </tr> 
-</table> what about scope="col" and scope="row" in tables?The `scope` attribute in HTML tables is used to specify whether a header cell is a header for a column, row, or group of columns or rows. It helps screen readers and other assistive technologies understand the structure of the table and how the headers relate to the data cells. how to use scope="col" and scope="row" in tables?You can use the `scope` attribute in your table headers to indicate whether they are column headers or row headers. Here's how you can modify your table code to include `scope`:
-
-```html<table cellpadding="10">
-  <tr>
-    <th scope="col">Header 1</th>
-    <th scope="col">Header 2</th>
-    <th scope="col">Header 3</th>
-  </tr>
-  <tr>
-    <td>Data 1</td>
-    <td>Data 2</td>
-    <td>Data 3</td>
-  </tr>
-  <tr>
-    <td>Data 4</td>
-    <td>Data 5</td>
-    <td>Data 6</td>
-  </tr>
+also learnt about cellpadding and scope="col" which i also forgot about.
